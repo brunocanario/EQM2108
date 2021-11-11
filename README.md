@@ -1,2 +1,4 @@
 # EQM2108
-MODELAGEM E SIMULACAO DE PROCESSOS DE ENGENHARIA QUIMICA
+
+
+## Bem-vindos ao repositório da disciplina MODELAGEM E SIMULACAO DE PROCESSOS DE ENGENHARIA QUIMICA oferecida na PUC-RIO pelo Departamento de Engenharia Química e de Materiais
