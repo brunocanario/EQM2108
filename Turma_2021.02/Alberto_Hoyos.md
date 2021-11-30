@@ -30,17 +30,20 @@ https://github.com/amandalemette/EQM2108/blob/504d08d0dcac5a9fc5774ca35305779df9
 ## The third step: Select the same optimized hyperparameters from Optuna and apply the optimization model (particle swarm), expecting to obtain high performance (R^2 > 0.95).  It is need to set the value for: hyperparameters of particle swarm (c1,c2 and w), number of particles, then number of iterations and the minimum limit for the hyperparameters. 
 ## Results:
 ## Optuna: 
-## It is obtained the correlation matrix as it is shown in the figure No. 1. Basically, it indicates that any input variable may be excluded because there is no correlation among them (any value different from 1 in the same row).
+## It is obtained the correlation matrix as it is shown in the figure No. 3. Basically, it indicates that any input variable may be excluded because there is no correlation among them (any value different from 1 in the same row).
 
 https://github.com/amandalemette/EQM2108/blob/b5dc1007cda97262a63e52a886eb47d4bf45a6d5/Turma_2021.02/Imagens/figure%201.png
+###### Figure No. 3
 
-## It is plotted the relation between the number of trials and the objective value. Basically, the result showed in the figure No. 2, indicates that as it was expected, during the training section the performance of the model is not high. However, as the testing section is achieved, the model is able to optimize and to reach the value of the objective function. Subsequently, this performance is confirmed as the validation section is achieved. The final R^2 got by setting the upper limits as 100 for every hyperparameter (excluding n_jobs), is equal to 0.9913787083312774.
+## It is plotted the relation between the number of trials and the objective value. Basically, the result showed in the figure No. 4, indicates that as it was expected, during the training section the performance of the model is not high. However, as the testing section is achieved, the model is able to optimize and to reach the value of the objective function. Subsequently, this performance is confirmed as the validation section is achieved. The final R^2 got by setting the upper limits as 100 for every hyperparameter (excluding n_jobs), is equal to 0.9913787083312774.
 
 https://github.com/amandalemette/EQM2108/blob/278ac6d7e7f520789287f54781fe4c0315001166/Turma_2021.02/Imagens/figure%202.png
+###### Figure No. 4 
 
-## It is acquired that min_samples_leaf, max_samples, min_samples_split and max_depth represent the most sensitivity on the model. This information is shown in the figure No. 3. 
+## It is acquired that min_samples_leaf, max_samples, min_samples_split and max_depth represent the most sensitivity on the model. This information is shown in the figure No. 5. 
 
 https://github.com/amandalemette/EQM2108/blob/25de7b31e4e01e7e3b0b943a4881be330e1bace7/Turma_2021.02/Imagens/figure%203.png
+###### Figure No. 5
 
 ## The values achieved for these hyperparameters are equal to: 12, 82, 11 and 66 respectively.  
 ## It is obtained high performances for every section: training (0.9882267866668047), testing (0.9877439463081822) and validation (0.9870512920212109).
