@@ -22,6 +22,9 @@
 ## Results:
 ## Optuna: 
 ## It is obtained the correlation matrix as it is shown in the figure No. 1. Basically, it indicates that any input variable may be excluded because there is no correlation among them (any value different from 1 in the same row).
+
+https://github.com/amandalemette/EQM2108/blob/b5dc1007cda97262a63e52a886eb47d4bf45a6d5/Turma_2021.02/Imagens/figure%201.png
+
 ## It is plotted the relation between the number of trials and the objective value. Basically, the result showed in the figure No. 2, indicates that as it was expected, during the training section the performance of the model is not high. However, as the testing section is achieved, the model is able to optimize and to reach the value of the objective function. Subsequently, this performance is confirmed as the validation section is achieved. The final R^2 got by setting the upper limits as 100 for every hyperparameter (excluding n_jobs), is equal to 0.9913787083312774.
 
 ## It is acquired that min_samples_leaf, max_samples, min_samples_split and max_depth represent the most sensitivity on the model. This information is shown in the figure No. 3. 
