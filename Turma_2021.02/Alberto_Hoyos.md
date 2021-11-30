@@ -17,8 +17,11 @@ https://github.com/amandalemette/EQM2108/blob/7551e8ce5d9ad368fcbb9501b23732d4ed
 
 ##  On this step, the assessment of the correlation among variables is done through the analysis of the correlation matrix.
 
-## The third step: Evaluate the influence of the hyperparameters defined by the meta estimator on the model, through a sensitivity analysis, computing R^2 (the coefficient of determination). The hyperparameters to be assessed are: random_state, min_samples_split, min_samples_leaf, max_depth, n_estimators, bootstrap, warm_start, verbose, oob_score, n_jobs and max_samples.
-## The variation on the upper limit for every hyperparameter must be tested, based on the R^2 achieved. 
+## The third step: Evaluate the influence of the hyperparameters defined by the meta estimator on the model, through a sensitivity analysis, computing R^2 (the coefficient of determination). The hyperparameters to be assessed are: random_state, min_samples_split, min_samples_leaf, max_depth, n_estimators, bootstrap, warm_start, verbose, oob_score, n_jobs and max_samples. The variation on the upper limit for every hyperparameter must be tested, based on the R^2 achieved. This is shown in the figure No. 2
+
+https://github.com/amandalemette/EQM2108/blob/504d08d0dcac5a9fc5774ca35305779df9d2178f/Turma_2021.02/Imagens/2.png
+###### Figure No. 2
+
 ## As these elements (hyperparameters) are intended to be assessed, it is needed to define the dataset split (including the validation set) previously. The dataset is split into: Training (70%), testing (15%) and validation (15%).
 ## The fourth step: Select the hyperparameters with the most important impact on the model. These must be applied on the model again, expecting to obtain high performance (R^2 > 0.95) for the three splits (training, testing and validation). 
 ## The evaluation is divided into 3 steps for Particle Swarm: 
