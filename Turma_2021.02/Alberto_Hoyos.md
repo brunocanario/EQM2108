@@ -30,7 +30,10 @@ https://github.com/amandalemette/EQM2108/blob/b5dc1007cda97262a63e52a886eb47d4bf
 https://github.com/amandalemette/EQM2108/blob/278ac6d7e7f520789287f54781fe4c0315001166/Turma_2021.02/Imagens/figure%202.png
 
 ## It is acquired that min_samples_leaf, max_samples, min_samples_split and max_depth represent the most sensitivity on the model. This information is shown in the figure No. 3. 
-## The values achieved for these hyperparameters are: 12, 82, 11 and 66 respectively.  
+
+https://github.com/amandalemette/EQM2108/blob/25de7b31e4e01e7e3b0b943a4881be330e1bace7/Turma_2021.02/Imagens/figure%203.png
+
+## The values achieved for these hyperparameters are equal to: 12, 82, 11 and 66 respectively.  
 ## It is obtained high performances for every section: training (0.9882267866668047), testing (0.9877439463081822) and validation (0.9870512920212109).
 ## Particle Swarm:
 ## As the assessment parameter is set as (1-R2val), the PSO found the best solution at (min_samples_leaf = 60, max_samples = 5598, min_samples_split = 60, max_depth = 5598), with R^2 equal to (1 - 0.00796172584949384 = 0.99203827415). This value was achieved as these factors are settled: The minimum limit = 60, (c1, c2 and w) = 100, the number of iterations = 4  and the number of particles = 100.
