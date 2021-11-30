@@ -15,7 +15,7 @@
 ## The variation on the upper limit for every hyperparameter must be tested, based on the R^2 achieved. 
 ## As these elements (hyperparameters) are intended to be assessed, it is needed to define the dataset split (including the validation set) previously. The dataset is split into: Training (70%), testing (15%) and validation (15%).
 ## The fourth step: Select the hyperparameters with the most important impact on the model. These must be applied on the model again, expecting to obtain high performance (R^2 > 0.95) for the three splits (training, testing and validation). 
-## The evaluation is divided into 2 steps for Particle Swarm: 
+## The evaluation is divided into 3 steps for Particle Swarm: 
 ## The first step: Reply the selection dataset (definition of variables and uploading the dataset) from Optuna.
 ## The second step: Define the dataset split (including the validation set). The dataset is split into: Training (70%), testing (15%) and validation (15%).
 ## The third step: Select the same optimized hyperparameters from Optuna and apply the optimization model (particle swarm), expecting to obtain high performance (R^2 > 0.95).  It is need to set the value for: hyperparameters of particle swarm (c1,c2 and w), number of particles, then number of iterations and the minimum limit for the hyperparameters. 
