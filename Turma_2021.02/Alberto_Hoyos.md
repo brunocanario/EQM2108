@@ -4,7 +4,7 @@
 ## Professor: Amanda Lemette 
 
 ## Introduction
- The oxidative coupling of methane (OCM) is an important route for the direct transformation of methane (from natural gas) to more valuable hydrocarbons. Nowadays, based on the importance of producing hydrocarbons for any human needs, it is required to develop new methods for obtention of these compounds (including: modeling, simulation and optimization). 
+The oxidative coupling of methane (OCM) is an important route for the direct transformation of methane (from natural gas) to more valuable hydrocarbons. Nowadays, based on the importance of producing hydrocarbons for any human needs, it is required to develop new methods for obtention of these compounds (including: modeling, simulation and optimization). 
 Precisely, the main aim of this article is to show an optimization method sourced on Machine Learning, testing two techniques (Optuna and Particle Swarm) validating the performance of the model, according the variation/influence of a meta estimator´s hyperparameters. This estimator (random forest) fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
 
 ## Methodology
@@ -15,14 +15,14 @@ The first step: Define the input and output variables provided from the dataset 
 The second step: Set the output variables used on the model (yield of C2, ethane yield and carbon dioxide yield). For the proposal of this article, these output variables are selected randomly. This definition is shown in the figure No. 1.
 
 <center><img src="https://github.com/amandalemette/EQM2108/blob/7551e8ce5d9ad368fcbb9501b23732d4edfd157d/Turma_2021.02/Imagens/1.png?raw=true"  width=1800 height=450 /><center>
-###### Figure No. 1
+Figure No. 1
 
-##  On this step, the assessment of the correlation among variables is done through the analysis of the correlation matrix.
+On this step, the assessment of the correlation among variables is done through the analysis of the correlation matrix.
 
-## The third step: Evaluate the influence of the hyperparameters defined by the meta estimator on the model, through a sensitivity analysis, computing R^2 (the coefficient of determination). The hyperparameters to be assessed are: random_state, min_samples_split, min_samples_leaf, max_depth, n_estimators, bootstrap, warm_start, verbose, oob_score, n_jobs and max_samples. The variation on the upper limit for every hyperparameter must be tested, based on the R^2 achieved. This is shown in the figure No. 2
+The third step: Evaluate the influence of the hyperparameters defined by the meta estimator on the model, through a sensitivity analysis, computing R^2 (the coefficient of determination). The hyperparameters to be assessed are: random_state, min_samples_split, min_samples_leaf, max_depth, n_estimators, bootstrap, warm_start, verbose, oob_score, n_jobs and max_samples. The variation on the upper limit for every hyperparameter must be tested, based on the R^2 achieved. This is shown in the figure No. 2
 
-https://github.com/amandalemette/EQM2108/blob/504d08d0dcac5a9fc5774ca35305779df9d2178f/Turma_2021.02/Imagens/2.png
-###### Figure No. 2
+<center><img src="https://github.com/amandalemette/EQM2108/blob/504d08d0dcac5a9fc5774ca35305779df9d2178f/Turma_2021.02/Imagens/2.png" width=1800 height=450 /><center>
+Figure No. 2
 
 ## As these elements (hyperparameters) are intended to be assessed, it is needed to define the dataset split (including the validation set) previously. The dataset is split into: Training (70%), testing (15%) and validation (15%).
 ## The fourth step: Select the hyperparameters with the most important impact on the model. These must be applied on the model again, expecting to obtain high performance (R^2 > 0.95) for the three splits (training, testing and validation). 
