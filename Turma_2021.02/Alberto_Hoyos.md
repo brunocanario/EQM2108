@@ -27,6 +27,8 @@ https://github.com/amandalemette/EQM2108/blob/b5dc1007cda97262a63e52a886eb47d4bf
 
 ## It is plotted the relation between the number of trials and the objective value. Basically, the result showed in the figure No. 2, indicates that as it was expected, during the training section the performance of the model is not high. However, as the testing section is achieved, the model is able to optimize and to reach the value of the objective function. Subsequently, this performance is confirmed as the validation section is achieved. The final R^2 got by setting the upper limits as 100 for every hyperparameter (excluding n_jobs), is equal to 0.9913787083312774.
 
+https://github.com/amandalemette/EQM2108/blob/278ac6d7e7f520789287f54781fe4c0315001166/Turma_2021.02/Imagens/figure%202.png
+
 ## It is acquired that min_samples_leaf, max_samples, min_samples_split and max_depth represent the most sensitivity on the model. This information is shown in the figure No. 3. 
 ## The values achieved for these hyperparameters are: 12, 82, 11 and 66 respectively.  
 ## It is obtained high performances for every section: training (0.9882267866668047), testing (0.9877439463081822) and validation (0.9870512920212109).
