@@ -3,11 +3,11 @@
 ## Student: Carlos Alberto Castro Hoyos
 ## Professor: Amanda Lemette 
 
-## Introduction
+## Introduction:
 The oxidative coupling of methane (OCM) is an important route for the direct transformation of methane (from natural gas) to more valuable hydrocarbons. Nowadays, based on the importance of producing hydrocarbons for any human needs, it is required to develop new methods for obtention of these compounds (including: modeling, simulation and optimization). 
 Precisely, the main aim of this article is to show an optimization method sourced on Machine Learning, testing two techniques (Optuna and Particle Swarm) validating the performance of the model, according the variation/influence of a meta estimator´s hyperparameters. This estimator (random forest) fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
 
-## Methodology
+## Methodology:
 This evaluation is divided into 4 steps for Optuna:
 
 The first step: Define the input and output variables provided from the dataset (OCM). According to the database, five variables are set as input variables (methane molar fraction, methane/oxygen feeding molar flow, temperature, pressure and volumetric flow) and seven variables as output variables (methane conversion, oxygen conversion, selectivity for C2, yield for C2, ethane yield, carbon dioxide yield and carbon monoxide yield).
@@ -61,7 +61,7 @@ It is said that the more data is used, the more computing time, the more effort 
 
 Respect the particle swarm model, 
 
-## Conclusion
+## Conclusion:
 
 ## References
 1) Tam, A. (2021). A Gentle Introduction to Particle Swarm Optimization. Retrieved 26 November 2021, from https://machinelearningmastery.com/a-gentle-introduction-to-particle-swarm-optimization/
