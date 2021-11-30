@@ -14,7 +14,7 @@ The first step: Define the input and output variables provided from the dataset 
 
 The second step: Set the output variables used on the model (yield of C2, ethane yield and carbon dioxide yield). For the proposal of this article, these output variables are selected randomly. This definition is shown in the figure No. 1.
 
-<center><img src="https://github.com/amandalemette/EQM2108/blob/7551e8ce5d9ad368fcbb9501b23732d4edfd157d/Turma_2021.02/Imagens/1.png?raw=true"  width=1800 height=450 /><center>
+<center><img src="https://github.com/amandalemette/EQM2108/blob/7551e8ce5d9ad368fcbb9501b23732d4edfd157d/Turma_2021.02/Imagens/1.png?raw=true"  width=1000 height=250 /><center>
 Figure No. 1
 
 On this step, the assessment of the correlation among variables is done through the analysis of the correlation matrix.
