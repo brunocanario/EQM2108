@@ -12,7 +12,8 @@
 ## The first step: Define the input and output variables provided from the dataset (OCM). According to the database, five variables are set as input variables (methane molar fraction, methane/oxygen feeding molar flow, temperature, pressure and volumetric flow) and seven variables as output variables (methane conversion, oxygen conversion, selectivity for C2, yield for C2, ethane yield, carbon dioxide yield and carbon monoxide yield).
 ## The second step: Set the output variables used on the model (yield of C2, ethane yield and carbon dioxide yield). For the proposal of this article, these output variables are selected randomly. This definition is shown in the figure No. 1.
 
-https://github.com/amandalemette/EQM2108/blob/7551e8ce5d9ad368fcbb9501b23732d4edfd157d/Turma_2021.02/Imagens/1.png
+<center><img src="https://github.com/amandalemette/EQM2108/blob/7551e8ce5d9ad368fcbb9501b23732d4edfd157d/Turma_2021.02/Imagens/1.png?raw=true"  width=900 height=525 /><center>
+
 ###### Figure No. 1
 
 ##  On this step, the assessment of the correlation among variables is done through the analysis of the correlation matrix.
