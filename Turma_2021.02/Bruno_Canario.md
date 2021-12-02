@@ -1,8 +1,9 @@
 Trabalho final da disciplina EQM2108
 
-# Título do trabalho
+# Classificação de membranas polímericas utilizando modelagem por floresta aleatória
 
-Aluna: Bruno Canario
+Aluno: Bruno Canario
+
 Professora: Amanda Lemette
 
 ## Resumo
@@ -10,7 +11,12 @@ O presente trabalho propõe uma modelagem utilizando o modelo de machine learnin
 
 
 ## Introdução
- 
+Membranas com polímeros como camada seletiva têm sido amplamente utilizadas para a separação de misturas de gases, incluindo aqueles de relevância chave para a energia e o meio ambiente. O desenvolvimento de novos polímeros com melhor permeabilidade e seletividade ao gás aumentaria a eficiência das separações por membrana de gás de interesse industrial. Os polímeros foram desenvolvidos para vários fins, incluindo recuperação de hidrogênio durante a preparação de amônia (H2 de N2), enriquecimento de oxigênio ou nitrogênio do ar (O2 de N2); e adoçamento de gás natural ou aprimoramento do biogás (CO2 de CH4).
+
+Métodos de aprendizado de máquina (ML) foram desenvolvidos e aplicados a polímeros para prever propriedades, incluindo temperatura de transição vítrea, constantes dielétricas, a permeabilidade de gases de polímeros e a descoberta de novos polímeros funcionais. No entanto, a permeabilidade ao gás do mesmo polímero é frequentemente medida sob diferentes condições, por exemplo, diferentes tratamentos com solvente ou grau de envelhecimento, e os modelos de ML baseados em impressões digitais de polímero não podem distinguir a diferença entre essas condições. O banco de dados de membrana de separação de gás polimérico geralmente contém dados para o mesmo polímero testado em condições diferentes, em laboratórios diferentes com instrumentos diferentes, e um modelo de ML baseado puramente na estrutura química por si só não seria suficiente para preencher os valores ausentes para permeabilidade ao gás.
+
+Uma forma alternativa de imputar o banco de dados é prever a permeabilidade de gases desconhecidos com base em dados para gases com permeabilidade conhecida. Porém, como os coeficientes de permeabilidade do gás de logaritmo Pi e Pj dos gases i e j são fortemente correlacionados, é plausível prever a permeabilidade do gás i usando os dados de permeabilidade para outros gases sem exigir quaisquer informações sobre a estrutura molecular dos polímeros ou condições experimentais. Nesse artigo foi desenvolvido um modelo utilizando floresta aleatória (Random Forest) para classificar os diferentes tipos de membranas poliméricas utilizando somente os dados de permeabilidade e seletividade, imputando que as diferentes condições de medição não influenciam na permeabilidade dos gases.
+
  
 ## Metodologia
 A base de dados utilizada foi retirada do site da Membrane Society of Australasia [1], o qual funciona como um depósito colaborativo de dados resultantes de trabalhos envolvendo membranas ao redor do mundo. Dentro do mesmo é possível selecionar o par de substâncias sobre as quais deseja-se saber os dados de permeabilidade e seletividade. Para o atual trabalho, que visa o estudo da permeabilidade de gás carbônico (CO2) em gás natural, o par escolhido foi CO2/CH4. Sendo assim, a seletividade CO2/CH4 e a permeabilidade de CO2 são usadas como variáveis de entrada para classificar os diferentes materiais que constituem as membranas.	Os dados estão representados no site também em forma de gráfico conforme a Figura 1 abaixo, sendo separadas em cores diferentes as 26 classes de materiais poliméricos que constituem as membranas. 
