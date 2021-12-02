@@ -61,7 +61,7 @@ Após a separação dos dados entre conjunto de treinamento, de validação e te
 ![image](https://user-images.githubusercontent.com/95252686/144334637-5497329b-120a-4d60-a635-20d7e71835dd.png)
 
 
-<center><img scr= "//github.com/brunocanario/EQM2108/blob/b7309230157fa22eeac6eaf1256ddd3b0160b773/Turma_2021.02/Imagens/Historico%20de%20otimiza%C3%A7%C3%A3o%20optuna.png?raw=true" width = 600 height = 500 />
+<center><img scr= "//github.com/brunocanario/EQM2108/blob/b7309230157fa22eeac6eaf1256ddd3b0160b773/Turma_2021.02/Imagens/Historico%20de%20otimiza%C3%A7%C3%A3o%20optuna.png?raw=true" width = 900 height = 500 />
 	
 Figura 3 - Histórico da otimização dos hiperparâmetros
 
