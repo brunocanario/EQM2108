@@ -21,7 +21,7 @@ Uma forma alternativa de imputar o banco de dados é prever a permeabilidade de 
 ## Metodologia
 A base de dados utilizada foi retirada do site da Membrane Society of Australasia [1], o qual funciona como um depósito colaborativo de dados resultantes de trabalhos envolvendo membranas ao redor do mundo. Dentro do mesmo é possível selecionar o par de substâncias sobre as quais deseja-se saber os dados de permeabilidade e seletividade. Para o atual trabalho, que visa o estudo da permeabilidade de gás carbônico (CO2) em gás natural, o par escolhido foi CO2/CH4. Sendo assim, a seletividade CO2/CH4 e a permeabilidade de CO2 são usadas como variáveis de entrada para classificar os diferentes materiais que constituem as membranas.	Os dados estão representados no site também em forma de gráfico conforme a Figura 1 abaixo, sendo separadas em cores diferentes as 26 classes de materiais poliméricos que constituem as membranas. 
 
-![image](https://user-images.githubusercontent.com/95252686/144330342-37679d89-65ae-4acd-b303-23fe2d5bd1ec.png)
+![image](https://user-images.githubusercontent.com/95252686/144330342-37679d89-65ae-4acd-b303-23fe2d5bd1ec.png) width = 500 heigth = 500
 Figura 1 - Gráfico com todos os dados utilizados
 
 As classes, as quais foram codificadas em valores numéricos de 0 a 25 para facilitar a identificação, possuem ao todo 1011 dados coletados. Entretanto, as mesmas possuem grandes desbalanços na quantidade de dados de cada uma, como é possível ver na Tabela 1 abaixo, onde a classe 11 possui muito mais dados que as demais. 
